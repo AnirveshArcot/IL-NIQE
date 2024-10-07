@@ -450,7 +450,7 @@ def calculate_ilniqe(img, crop_border, input_order='HWC', num_cpus=3, resize=Tru
 if __name__ == '__main__':
     import warnings
 
-    img_path = './pepper_exa/pepper_4.png'
+    img_path = './pepper_exa/sjpNp.png'
     img = cv2.imread(img_path)
     with warnings.catch_warnings():
         warnings.simplefilter('ignore', category=RuntimeWarning)
